@@ -16,11 +16,13 @@
     font-size: 5rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+    margin-top: 0.75rem;
     border-bottom: 2px solid set-text-color($primary-color);
 
     &--last {
       color: $secondary-color;
       font-weight: 700;
+      font-size: 2.75rem;
     }
   }
 }

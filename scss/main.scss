@@ -43,7 +43,7 @@ main {
             padding: 0.5rem;
             @include transition-ease;
 
-            &:hover {
+            &:hover, &:focus {
                 color: $secondary-color;
             }
         }

@@ -1,4 +1,8 @@
 @include media-medium {
+    .home__name--last {
+        font-size: inherit;
+    }
+
     .menu-btn {
       visibility: hidden;
     }

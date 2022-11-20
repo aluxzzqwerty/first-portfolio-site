@@ -60,7 +60,7 @@
             @include transition-ease;
         }
 
-        &:hover {
+        &:hover, &:focus {
             &::after {
                 bottom: 0;
                 opacity: 0.8;
@@ -89,7 +89,7 @@
         color: set-text-color($secondary-color);
         @include transition-ease;
 
-        &:hover {
+        &:hover, &:focus {
             color: set-text-color(set-text-color($secondary-color));
         }
     }
